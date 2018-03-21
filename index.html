@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="background-image: url('images/BlueBackground.jpg'); font-family: 'Muli', sans-serif;">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/uikit.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,900" rel="stylesheet">
+        <script src="assets/js/uikit.min.js"></script>
+        <script src="assets/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        <script src="index.js"></script>
+
+        <center>
+        <div style="margin-left: 22.5%; margin-top: 8%; margin-right: 22.5%;">
+            <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
+                    <!-- <center><p class="uk-card-title" style="font-size: 1.1em;">National Communications Authority</p></center> -->
+                <center><img src="images/final_logo.png" style="height:35%; width: 35%;"/></center>
+                <!-- <center><p class="uk-card-title" style="font-size: 1.1em;">Login</p></center> -->
+                
+                <div class="uk-margin">
+                     <div class="uk-inline">
+                         <span class="uk-form-icon" uk-icon="icon: mail"></span>
+                         <input class="uk-input" type="text" style="color: black;">
+                      </div>
+                 </div>
+                
+                 <div class="uk-margin">
+                     <div class="uk-inline">                         
+                         <span class="uk-form-icon uk-form-icon" uk-icon="icon: lock"></span>
+                         <input class="uk-input" type="password" style="color: black;">
+                    </div>
+                 </div>
+
+                 <center><p><a style="color: #008eda; font-size: 1.0em; font-weight: 900;" class="uk-button uk-button-text" onclick="loginUser()">Login</a></p>
+                 <p><a href="forgotpassword.html" style="font-size: 0.7em; color:brown" class="uk-button uk-button-text" href="">I forgot my password</a></p></center>
+            </div>
+        </div> 
+        </center>   
+
+        <footer style="margin-top: 8%;">
+            <center>
+            <p class="copyright pull-right" style="color: white; font-weight: 100; font-size: 0.8em;">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                <a href="https://www.nca.org.gh" style="color: white; font-weight: 100; font-size: 1.0em;"> National Communications Authority </a>
+            </p>
+            </center>
+        </footer>
+    </body>
+</html>

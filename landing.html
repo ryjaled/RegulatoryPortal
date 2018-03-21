@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html style="background-image: url('images/BlueBackground.jpg'); font-family: 'Muli', sans-serif;">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/uikit.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:300,900" rel="stylesheet">
+        <script src="assets/js/uikit.min.js"></script>
+        <script src="assets/js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+        <script src="index.js"></script>
+
+        <img src="images/invoicebanner2.png" class="w3-border" alt="NCA Icon" style="width: 100%;">
+       
+        <center>
+        <div style="padding-top: 5%;">
+                <div style="text-align: right; color: white; background-color: black;">
+                        Firstname Lastname
+                        <button class="uk-button uk-button-danger" onclick="signOut()">Log Out</button>
+                    </div>
+            <div class="uk-card uk-card-default uk-card-body">
+                    <div>
+                            <div uk-grid>
+                                <div class="uk-height-1-2" style="text-align: left;">
+                                    <ul class="uk-tab-left" uk-tab="connect: #component-tab-left; animation: uk-animation-fade">
+                                        <li style="margin-top: 10%;"><a href="#">Dashboard</a></li>
+                                        <li><a href="#">Scan Invoice</a></li>
+                                        <li><a href="#">View Invoices</a></li>
+                                        <li><a href="#">Companies</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uk-width-expand@m">
+                                    <ul id="component-tab-left" class="uk-switcher">
+                                        <li>
+                                            <!-- DASHBOARD -->
+                                            DASHBOARD
+                                        </li>
+                                        <li>
+                                            <!-- SCAN INVOICES -->
+                                            SCAN INVOICES
+                                        </li>
+                                        <li>
+                                            <!-- VIEW INVOICES -->
+                                            VIEW INVOICES
+                                        </li>
+                                        <li>
+                                            <!-- COMPANIES -->
+                                            COMPANY
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div> 
+        </center>   
+
+        <footer style="margin-top: 8%;">
+            <center>
+            <p class="copyright pull-right" style="color: white; font-weight: 100; font-size: 0.8em;">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+                <a href="https://www.nca.org.gh" style="color: white; font-weight: 100; font-size: 1.0em;"> National Communications Authority </a>
+            </p>
+            </center>
+        </footer>
+    </body>
+</html>
